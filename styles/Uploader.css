@@ -1,0 +1,62 @@
+﻿.drag-n-drop {
+    position: relative;
+    z-index: 10;
+
+    border-style: dashed !important;
+    border-width: 2px !important;
+    border-color: var(--border-wite) !important;
+    border-radius: 4px !important;
+    min-height: 13.75rem !important;
+    min-width: 100% !important;
+
+    background-color: var(--wite-dark) !important;
+
+    -webkit-transition: border-color 0.2s ease-out, background-color 0.6s ease-out !important;
+    -moz-transition: border-color 0.2s ease-out, background-color 0.6s ease-out !important;
+    -o-transition: border-color 0.2s ease-out, background-color 0.6s ease-out !important;
+    transition: border-color 0.2s ease-out, background-color 0.6s ease-out !important;
+}
+
+.drag-n-drop input[type=file] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+.drag-n-drop:hover {
+    border-color: var(--primary-main) !important;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+.icon-size {
+    width: 4rem;
+    height: 4rem;
+}
+
+.mt-icon {
+    margin-top: 1.25rem;
+}
+
+.m-icon {
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;;
+}
+
+.uploader-image {
+    position: relative;
+    width: calc(100% - 0.3);
+    padding-top: 75%;
+    margin: 0.3rem;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,54 @@
+﻿.company-card {
+    width: 17rem;
+    min-height: 24rem;
+    padding: 0;
+    overflow: hidden;
+
+    -webkit-transition: box-shadow 0.3s ease-out, width 0.3s ease-out;
+    -moz-transition: box-shadow 0.3s ease-out, width 0.3s ease-out;
+    -o-transition: box-shadow 0.3s ease-out, width 0.3s ease-out;
+    transition: box-shadow 0.3s ease-out, width 0.3s ease-out;
+}
+
+.card-image {
+    height: 12.75rem;
+    width: 17rem;
+}
+
+.card-content {
+    height: 10rem;
+}
+
+@media(max-width: 592px){
+    .company-card {
+        width: 21rem;
+        min-height: 24rem;
+        padding: 0;
+    }
+    .card-image {
+        height: 15.75rem;
+    }
+}
+
+.company-card:hover {
+    -webkit-box-shadow: 0 5px 25px -10px var(--shadow-black);
+    -moz-box-shadow: 0 5px 25px -10px var(--shadow-black);
+    box-shadow: 0 5px 25px -10px var(--shadow-black);
+    cursor: pointer;
+}
+
+.card-link {
+    padding-left: 4px;
+    text-transform: none;
+    font-weight: 400;
+    color: var(--primary-light) !important;
+    
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+.card-link:hover {
+    color: var(--primary-main) !important;
+}

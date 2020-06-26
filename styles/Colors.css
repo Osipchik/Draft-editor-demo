@@ -1,0 +1,99 @@
+﻿.primary-main {
+    color: var(--primary-main) !important;
+}
+
+.primary-light {
+    color: var(--primary-light) !important;
+}
+
+.primary-dark {
+    color: var(--primary-dark) !important;
+}
+
+.secondary-main {
+    color: var(--secondary-main) !important;
+}
+
+.secondary-light {
+    color: var(--secondary-light) !important;
+}
+
+.secondary-dark {
+    color: var(--secondary-dark) !important;
+}
+
+.green-main {
+    color: var(--green-main) !important;
+}
+
+.bg-green-main {
+    background-color: var(--green-main) !important;;
+}
+
+.green-light {
+    color: var(--green-light) !important;
+}
+
+.green-dark {
+    color: var(--green-dark) !important;
+}
+
+.text-input-main {
+    color: var(--wite-dark) !important;
+}
+
+.text-input-light {
+    color: var(--text-input-light) !important;
+}
+
+.text-input-dark {
+    color: var(--color-disable) !important;
+}
+
+.color-disable {
+    color: var(--color-disable) !important;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.facebook {
+    color: #3b5998
+}
+
+.black {
+    color: #000000
+}
+
+.dark-grey {
+    color: #656969;
+}
+
+:root {
+    --primary-main: #0D47A1;
+    --primary-light: #1976D2;
+    --primary-dark: #1E88E5;
+    --secondary-main: #FFFFFF;
+    --secondary-light: #424242;
+    --secondary-dark: #424242;
+    --wite-dark: #EEEEEE;
+    --green-main: #05A378;
+    --green-light: #26A69A;
+    --green-dark: #00897B;
+    --text-input-main: #EEEEEE;
+    --text-input-light: inherit;
+    --color-disable: #757575;
+    --input-bg: #2DB7F5;
+    --grey: #CED4DA;
+    --acid-blue: #0000FF;
+    --dark-red: #550000;
+    --border-wite: #BDBDBD;
+    --shadow-black: #0d0d0d;
+
+    --red-light: #D50000;
+    --red-vivid: #F70D1A;
+    --green-vivid: #00C853;
+    --muted-light: #BDBDBD;
+    --muted-dark: #757575;
+}

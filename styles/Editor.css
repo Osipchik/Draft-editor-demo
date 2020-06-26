@@ -1,0 +1,159 @@
+﻿﻿.editor-field {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #b71c1c;
+}
+
+.header-active {
+    color: #0D47A1 !important;
+}
+
+.header {
+    color: #757575 !important;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition:  color 0.2s ease-out;
+    -o-transition:  color 0.2s ease-out;
+    transition:  color 0.2s ease-out;
+}
+
+.header:hover {
+    color: #1976D2 !important;
+}
+
+.header-selector {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+
+    -webkit-transition: border-color 0.2s ease-out;
+    -moz-transition:  border-color 0.2s ease-out;
+    -o-transition:  border-color 0.2s ease-out;
+    transition:  border-color 0.2s ease-out;
+}
+
+.header-selector:hover {
+    cursor: pointer;
+    border-color: #1976D2;
+}
+
+.divider {
+    width: 1px;
+    height: auto;
+    background-color: #E0E0E0;
+}
+
+.tool-item {
+    color: #757575 !important;
+}
+
+.tool-item:hover {
+    color: #2962FF !important;
+}
+
+.tool-item-active {
+    color: #0D47A1 !important;
+}
+
+.youtube {
+    color: #757575 !important;
+}
+
+.youtube:hover {
+    color: #b71c1c !important;
+}
+
+.youtube-active {
+    color: #b71c1c !important;
+}
+
+.popover-input {
+    width: 28rem;
+}
+
+@media (max-width: 592px) {
+    .popover-input {
+        width: 100%;
+    }
+}
+
+.m-control {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.media {
+    width: 100%;
+}
+
+.bg-media {
+    background-color: #EEEEEE;
+}
+
+.RichEditor-editor {
+    cursor: text;
+    padding: 2rem;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+    color: #999;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    margin: 1rem;
+    font-family: 'Hoefler Text', Georgia, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.MuiDialog-paperWidthSm {
+    width: 600px;
+}
+
+blockquote {
+    border-left: 3px solid var(--green-quote) !important;
+    margin: 1.5em 10px 1.5em 0 !important;
+    padding: 0.5em 10px 0.5em 20px  !important;
+    font-family: Georgia, Times, "Times New Roman", serif !important;
+    font-size: 1.25em  !important;
+    font-style: italic !important;
+    line-height: 1.8em !important;
+    position: relative !important;
+}
+
+blockquote:before {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: -4px !important;
+    height: 2em !important;
+    background-color: #fff !important;
+    width: 5px !important;
+    margin-top: -1em !important;
+}
+
+blockquote:after {
+    content: "\201D" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: -0.58em !important;
+    color: var(--green-quote) !important;
+    font-family: "Ionicons" !important;
+    font-size: 30px !important;
+    line-height: 1em !important;
+    text-align: center !important;
+    text-indent: -2px !important;
+    width: 1em !important;
+    margin-top: -0.28em !important;
+    transition: .2s all ease-in-out, .4s transform ease-in-out !important;
+}
+
+:root {
+    --green-quote: #00CC8F;
+    --quote-bg: #f9f9f9;
+}
